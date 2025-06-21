@@ -10,7 +10,7 @@ This is a **Java-based Offline Examination Application** that uses a **MySQL dat
 - 👤 **Admin Panel**:
   - Manage student accounts
   - Create, edit, and delete exams
-  - Add multiple-choice or descriptive questions
+  - Add multiple-choice
   - View and export results
 
 - 🧑‍🎓 **Student Panel**:
@@ -28,7 +28,7 @@ This is a **Java-based Offline Examination Application** that uses a **MySQL dat
 
 - **Java** (Core + JDBC)
 - **MySQL** (Database)
-- **Swing / JavaFX** (for GUI, if used)
+- **Swing / JavaFX** 
 - **JDBC** for database connectivity
 
 ---
@@ -37,9 +37,9 @@ This is a **Java-based Offline Examination Application** that uses a **MySQL dat
 
 ### Prerequisites
 
-- JDK 8 or above
+- JDK 21 or above
 - MySQL Server
-- MySQL Workbench or phpMyAdmin (optional for DB management)
+- MySQL Workbench 
 
 ### Installation Steps
 
@@ -47,3 +47,15 @@ This is a **Java-based Offline Examination Application** that uses a **MySQL dat
    ```bash
    git clone https://github.com/your-username/offline-exam-app.git
    cd offline-exam-app
+
+2. **Set up the databse**
+   - Create the database on MySQL
+   - Open the MySQL_Database folder
+   - Copy the 1. Database_Creation file and paste it to the MySQL Workbech then run it
+     
+3. **Run the application
+   - Open the Editor then open the big folder named
+   - Then navigate to /PDM/src/main/java
+   - Go to org.group5.connectionSQL, then open MyConnection.java to update your MySQL password and username
+   - Go to org.group.general package, then open and run MainMenu.java
+  
